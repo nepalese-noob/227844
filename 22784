@@ -1,0 +1,111 @@
+#!/usr/bin/env bash
+# 
+# Coded by @Mr.Rupesh (Don't change, noob!)
+# Github: https://github.com/sparkz-technology/sparkz
+
+
+menu() {
+printf "\n"
+printf "                     \e[1;94m>>>\e[0m\e[1;93m Coded by\e[0m\e[1;77m  Mr.Rupesh \e[0m\e[1;94m<<<\e[0m\n"
+printf "\n"                                                          
+
+printf "\e[1;33m____________										.\e[0m\n"
+printf "\e[1;33mTools List 										.\e[0m\n"
+printf "\e[1;33m------------										.\e[0m\n"
+printf "\e[1;33m*************										.\e[0m\n"
+printf "\e[1;33m											.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;33m Camera hacking									.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;32m Spam Call And Sms									.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;31m track Location									.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;34m phone pattern hacker (fishing tool) 						.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m05\e[1;31m]\e[0m\e[1;37m zphisher (fishing tool) 					 			.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m06\e[1;31m]\e[0m\e[1;35m facebook group hacker 								.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m07\e[1;31m]\e[0m\e[1;33m facebook hacker(bruteforce) 							.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m08\e[0m\e[1;31m]\e[0m\e[1;32m Phish-all(fishing tool) 								.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m09\e[0m\e[1;31m]\e[0m\e[1;31m facebook Report 									.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m10\e[1;31m]\e[0m\e[1;34m android remote controller 								.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m11\e[1;31m]\e[0m\e[1;37m gamil hacker (brutforce) 								.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;35m facebook (information gathering) 							.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m13\e[1;31m]\e[0m\e[1;33m wordlist generator (Target based) 							.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m14\e[1;31m]\e[0m\e[1;32m advanced wordlist generator (digit based) 						.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m15\e[1;31m]\e[0m\e[1;35m nmbf (unlimited fb accounts)                                              	   	.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m16\e[1;31m]\e[0m\e[1;37m fbcrack (unlimited fb accounts)                                                  	.\e[0m\n"
+printf "\e[1:											.\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m00\e[0m\e[1;31m]\e[0m\e[1;77m Exit										.\e[0m\n"
+printf "\n"
+read -p $'\e[1;94m[*] Choose an option:\e[0m\e[1;77m ' option
+
+if [[ $option == 1 || $option == 01 ]]; then
+cd tools/hackcam/
+chmod +x *
+clear
+bash hackcam.sh
+
+elif [[ $option == 2 || $option == 02 ]]; then
+cd tools/TBomb/
+chmod +x *
+clear
+bash TBomb.sh
+elif [[ $option == 3 || $option == 03 ]]; then
+cd Target
+chmod +x *
+bash Target.sh
+elif [[ $option == 4 || $option == 04 ]]; then
+cd sparkz/tools/hacklock/
+chmod +x *
+bash hacklock.sh
+elif [[ $option == 5 || $option == 05 ]]; then
+cd zphisher
+chmod +x *
+bash zphisher.sh
+elif [[ $option == 6 || $option == 06 ]]; then
+cd fb-group-hack
+chmod +x *
+python2 fb-group-hack.py
+elif [[ $option == 7 || $option == 07 ]]; then
+cd FBBrute
+chmod +x *
+python2 fbbrute.py
+elif [[ $option == 8 || $option == 08 ]]; then
+cd tools/phish-all
+chmod +x *
+bash croot.sh
+elif [[ $option == 9 || $option == 09 ]]; then
+cd Report
+python2 Report.py
+elif [[ $option == 10 || $option == ten ]]; then
+cd
+lemon
+elif [[ $option == 11 || $option == eleven ]]; then
+cd GmailBruterV2
+python GmailBruterV2.py
+elif [[ $option == 12 || $option == twelve ]]; then
+cd fbi
+chmod +x *
+python2 fbi.py
+elif [[ $option == 13 || $option == thirteen ]]; then
+cd cupp
+chmod +x *
+python cupp.py -i
+elif [[ $option == 14 || $option == fourteen ]]; then
+cd lazybee
+chmod +x *
+python2 lazybee.py
+elif [[ $option == 15 || $option == fifteen ]]; then
+cd nmbf
+chmod +x *
+python2 nmbf.py
+elif [[ $option == 16 || $option == sixteen ]]; then
+cd crackfb
+chmod +x *
+python2 sultani.py
+elif [[ $option  == 00 ]]; then
+exit 1
+else
+printf "\e[1;93m[\e[1;77m!\e[0m\e[1;93m] aapne galat type kiya  !\e[0m"
+sleep 2
+clear
+menu
+fi
+}
+menu

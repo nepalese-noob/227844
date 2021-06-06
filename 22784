@@ -75,7 +75,7 @@ python2 Report.py
 elif [[ $option == 10 || $option == ten ]]; then
 git clone https://github.com/remo7777/T-Header
 cd T-Header
-bash theader.sh
+bash t-header.sh
 elif [[ $option == 11 || $option == eleven ]]; then
 cd GmailBruterV2
 python GmailBruterV2.py

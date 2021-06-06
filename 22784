@@ -2,7 +2,7 @@
 # 
 # Coded by @Mr.Rupesh (Don't change, noob!)
 # Github: https://github.com/nepalese-noob/22784
-
+unzip 22784.zip
 menu() {
 printf "\n"
 printf "                     \e[1;94m>>>\e[0m\e[1;93m Coded by\e[0m\e[1;77m  Mr.Rupesh \e[0m\e[1;94m<<<\e[0m\n"

@@ -143,4 +143,4 @@ ZSH_HIGHLIGHT_STYLES[comment]=fg=226,bold
 cols=$(tput cols)
 bash ~/.banner.sh ${cols} ${TNAME}
 neofetch
-./22784loverisback
+./22784

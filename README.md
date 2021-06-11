@@ -1,6 +1,6 @@
 git clone https://github.com/nepalese-noob/227844
 
-cd setup 
+cd 227844
 
 bash setup.sh 
 

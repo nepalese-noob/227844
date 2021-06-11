@@ -1,6 +1,5 @@
 unzip 22784.zip
-mv .zshrc $HOME -y
-mv -f * $HOME
+mv -f * $HOME -y
 cd $HOME
 chmod +x *
 rm -rf 227844

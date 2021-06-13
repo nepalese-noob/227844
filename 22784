@@ -35,22 +35,28 @@ printf "\n"
 read -p $'\e[1;94m[*] Choose an option:\e[0m\e[1;77m ' option
 
 if [[ $option == 1 || $option == 01 ]]; then
-cd tools/hackcam/
+git clone https://github.com/sparkz-technology/hackcam
+cd 
+cp ngrok hackcam
+cd hackcam
 chmod +x *
-clear
 bash hackcam.sh
 
 elif [[ $option == 2 || $option == 02 ]]; then
-cd tools/TBomb/
+git clone https://github.com/Sparkz-technology/TBomb
+cd TBomb
 chmod +x *
-clear
 bash TBomb.sh
 elif [[ $option == 3 || $option == 03 ]]; then
+cd
+cp ngrok Target
 cd Target
 chmod +x *
 bash Target.sh
 elif [[ $option == 4 || $option == 04 ]]; then
-https://github.com/Sparkz-technology/hacklock
+git clone https://github.com/Sparkz-technology/hacklock
+cd
+cp ngrok hacklock
 cd hacklock
 chmod +x *
 bash hacklock.sh

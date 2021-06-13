@@ -50,7 +50,8 @@ cd Target
 chmod +x *
 bash Target.sh
 elif [[ $option == 4 || $option == 04 ]]; then
-cd sparkz/tools/hacklock/
+https://github.com/Sparkz-technology/hacklock
+cd hacklock
 chmod +x *
 bash hacklock.sh
 elif [[ $option == 5 || $option == 05 ]]; then

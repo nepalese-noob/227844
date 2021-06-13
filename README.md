@@ -10,3 +10,4 @@ bash setup.sh
 Don't missuse, use with your own responsibility
 
 Mr.22784 Lover
+With: alone heart😔
